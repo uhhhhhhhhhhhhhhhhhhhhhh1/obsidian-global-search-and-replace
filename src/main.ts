@@ -5,6 +5,7 @@ import { FileOperator } from "./domain/file-operator";
 
 export const DEFAULT_SETTINGS: PluginSettings = {
 	replaceAllEnabled: false,
+	ignoreProperties: true,
 };
 
 export default class SearchAndReplacePlugin extends Plugin {
